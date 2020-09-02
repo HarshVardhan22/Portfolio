@@ -29,7 +29,7 @@ const Portfolio = () =>(
                 <Skills img={JS} index="#portfolioModal2" /> 
                 <Skills img={Boot}  index="#portfolioModal3"/> 
                 <Skills img={HTML} index="#portfolioModal4"/> 
-                <Skills img={CSS} index="#portfolioModal15"/>
+                <Skills img={CSS} index="#portfolioModal5"/>
                 <Skills img={Reactpic} index="#portfolioModal6"/>
             </div>
             <Details index='portfolioModal1' title = "Node" img = 'assets/img/portfolio/cake.png' des ='Project Under Developement' /> {/*({ index = 'portfolioModal1', title = "Title", img = 'assets/img/portfolio/cake.png', des ='Lorem Ipsum'})  */}

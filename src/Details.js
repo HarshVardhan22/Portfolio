@@ -1,16 +1,16 @@
 import React from 'react';
 
 const Details = ({ index = 'portfolioModal1', title = "Title", img = 'assets/img/portfolio/cake.png', des ='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.'}) => (
-    <div className ="portfolio-modal modal fade" id={index} tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
-        <div className ="modal-dialog modal-xl" role="document">
-            <div className ="modal-content">
+    <div className="portfolio-modal modal fade " id={index} tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+        <div className ="modal-dialog modal-xl " role="document">
+            <div className ="modal-content ">
                 <button className ="close" type="button" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true"><i className ="fas fa-times"></i></span>
                 </button>
                 <div className ="modal-body text-center">
                     <div className ="container">
                         <div className ="row justify-content-center">
-                            <div className ="col-lg-8">
+                            <div className ="col-lg-4">
                              { /*  <!-- Portfolio Modal - Title-->*/}
                                     <h2 className ="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">{title}</h2>
                                
